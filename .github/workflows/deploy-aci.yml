@@ -63,4 +63,4 @@ jobs:
           az container show \
             --resource-group project0 \
             --name project0-instance \
-            --query ipAddress.fqdn -o tsv
+            --query ipAddress.fqdn -o tsv 
