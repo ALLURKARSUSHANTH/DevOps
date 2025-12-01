@@ -1,5 +1,5 @@
 const http = require("http");
-const port = 3000;
+const port = 8082;
 
 const server = http.createServer((req,res)=>{
     res.writeHead(200,{'content-type':'text/plain'})
