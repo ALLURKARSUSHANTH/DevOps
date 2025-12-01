@@ -1,2 +1,2 @@
 # DevOps : Practice Repository
-    This is a practice repository for devops
+    This is a repository for devops project
