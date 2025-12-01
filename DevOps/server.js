@@ -1,7 +1,7 @@
-const https = require("https");
+const http = require("http");
 const port = 3000;
 
-const server = https.createServer((req,res)=>{
+const server = http.createServer((req,res)=>{
     res.writeHead(200,{'content-type':'text/plain'})
     res.send(`<h2> Hello,I'm Practicing </h2> \n`);
 });
